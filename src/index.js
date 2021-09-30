@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import APP from "./App";
+import Profile from "./Profile";
 
 import PUP from "./PUP.js";
 import PUP2 from "./Slot-Booking/PUP2";
 
 ReactDOM.render(
   <React.StrictMode>
-    <PUP />
-    <PUP2 />
+    <Profile />
   </React.StrictMode>,
   document.getElementById("root")
 );
