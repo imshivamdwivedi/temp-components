@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import APP from "./App";
-import Profile from "./Profile";
+import Profile from "./Profile/Profile";
 
 import PUP from "./PUP.js";
 import PUP2 from "./Slot-Booking/PUP2";

@@ -1,7 +1,8 @@
 import React from "react";
 import { MDBBtn, MDBCard } from "mdb-react-ui-kit";
 import { Paper } from "@material-ui/core";
-import profileImage from "./images/shivan.png";
+import profileImage from "../images/shivan.png";
+import Slot from "./Slot";
 
 const Profile = () => {
   return (
@@ -185,7 +186,44 @@ const Profile = () => {
             </div>
           </div>
           <div className="col-1"></div>
-          <div className="col-5">Want all ?</div>
+          <div className="col-5">
+            <div className="row mt-5">
+              <div className="col">
+                {/* <Paper elevation="2" style={{ borderRadius: "20px" }}> */}
+                <div className="py-2  m-auto">
+                  <h4 className="text-center">Meeting Slot</h4>
+                  <div className="my-3 px-2">
+                    <Slot />
+                  </div>
+                  <div className="my-3 px-2">
+                    <Slot />
+                  </div>
+                  <div className="my-3 px-2">
+                    <Slot />
+                  </div>
+                  <div className="my-3 px-2">
+                    <Slot />
+                  </div>
+                  <div className="my-3 px-2">
+                    <Slot />
+                  </div>
+                  <div className="my-3 px-2">
+                    <Slot />
+                  </div>
+
+                  <div className="d-flex justify-content-center my-4">
+                    <button
+                      type="button"
+                      className=" btn btn-primary rounded-pill  w-25 m-auto "
+                    >
+                      Create Slot
+                    </button>
+                  </div>
+                </div>
+                {/* </Paper> */}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
